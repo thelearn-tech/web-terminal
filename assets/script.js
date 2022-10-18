@@ -1,5 +1,5 @@
 
-// V1.0
+// V1.1
  
 const holderForTerminal = document.getElementById("terminal");
 
@@ -18,7 +18,7 @@ function populateBanner(url) {
 }
 
 // show banner
-populateBanner('../assets/banner.txt');
+populateBanner('https://raw.githubusercontent.com/thelearn-tech/web-terminal/main/assets/banner.txt');
 
 
 
@@ -170,7 +170,7 @@ function showBanner() {
         document.getElementById('banner').id = "bannerUsed"; // changing id so not to conflict with new banner    
 
     };
-    xhr.open('GET', "../assets/banner.txt");
+    xhr.open('GET', "https://raw.githubusercontent.com/thelearn-tech/web-terminal/main/assets/banner.txt");
     xhr.send();
 
    
